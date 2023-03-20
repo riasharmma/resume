@@ -1,0 +1,84 @@
+body{
+    /* background: url('./profileimg.jpg'); */
+    /* position: absolute; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1; */
+    height:fit-content;
+    width:595px;
+    margin:auto;
+    box-sizing: border-box;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: inherit;
+    padding-left: inherit;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.resume{
+            border:2px solid black;
+            display: flex;
+        }
+        .profile img{
+            width: 154px;
+            height: 162px;
+            /* border-radius: 50%; */
+            padding: 5px;
+            box-shadow: 0px 0px 7px black;
+            /* border: 6px solid white; */
+        }
+        .right{
+            padding-left:2.5% ;
+            color: black;
+            font-size: 20px;
+        }
+        hr{
+            width: 190px;
+            height: 3px;
+            background-color: black;
+        }
+        .left{
+            margin-top: 0%;
+            padding: 20px 20px;
+            background-color: rgb(224, 224, 224);
+        }
+        .contact-detail{
+            margin: 12px 12px;
+            font-size: 17px;
+        }
+        @media (min-width: 576px){
+.jumbotron {
+    margin-bottom: 7px;
+    padding: 4rem 2rem;
+    box-shadow: 0px 2px 6px black;
+    border-bottom: 2px solid grey;
+}
+        }
+        .PersonalDetails{
+            font-weight: bold;
+        }
+        .center{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+        }
+        /* .btn-outline-dark{
+            font-size: 18px;
+            color: #212529;
+            background-color: #f8f9fa;
+            border-color: #f8f9fa;
+        } */
+        .btn-outline-dark{
+            /* font-size: 18px;
+            color: #212529;
+            background-color: #f8f9fa;
+            border-color: #000000; */
+           /* color: black; */
+            font-weight: bold;
+            margin-top: 12px;
+            margin-bottom: 43px;
+        }
+        /* .text-style-none a i:hover{
+            text-decoration: none;
+        } */
